@@ -42,37 +42,42 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(253, 118);
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Location = new System.Drawing.Point(253, 113);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(143, 21);
+            this.textBox1.Size = new System.Drawing.Size(143, 26);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(253, 187);
+            this.textBox2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox2.Location = new System.Drawing.Point(253, 179);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(143, 21);
+            this.textBox2.Size = new System.Drawing.Size(143, 26);
             this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(253, 255);
+            this.textBox3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox3.Location = new System.Drawing.Point(253, 250);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(143, 21);
+            this.textBox3.Size = new System.Drawing.Size(143, 26);
             this.textBox3.TabIndex = 3;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(253, 319);
+            this.textBox4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox4.Location = new System.Drawing.Point(253, 313);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(143, 21);
+            this.textBox4.Size = new System.Drawing.Size(143, 26);
             this.textBox4.TabIndex = 4;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(253, 386);
+            this.textBox5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox5.Location = new System.Drawing.Point(253, 382);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(143, 21);
+            this.textBox5.Size = new System.Drawing.Size(143, 26);
             this.textBox5.TabIndex = 5;
             // 
             // button3

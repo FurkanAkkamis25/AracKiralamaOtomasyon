@@ -114,6 +114,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "bakımdakiAraclar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "bakımdakiAraclar";
             this.Load += new System.EventHandler(this.bakımdakiAraclar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

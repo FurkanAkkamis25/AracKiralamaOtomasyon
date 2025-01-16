@@ -331,5 +331,8 @@
   <ItemGroup>
     <None Include="Resources\FURKAN%2810%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kullanıcı EKLE.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

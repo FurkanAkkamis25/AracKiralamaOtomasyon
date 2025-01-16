@@ -39,5 +39,17 @@ namespace RentACar
 
             }
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            anaSayfa ana = new anaSayfa();
+            ana.Show();
+            this.Hide();
+        }
     }
 }

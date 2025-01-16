@@ -73,7 +73,7 @@
             this.gridControl1.Location = new System.Drawing.Point(12, 92);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(642, 354);
+            this.gridControl1.Size = new System.Drawing.Size(681, 354);
             this.gridControl1.TabIndex = 10;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -86,7 +86,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(696, 247);
+            this.button1.Location = new System.Drawing.Point(740, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 11;
@@ -96,7 +96,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(848, 247);
+            this.button2.Location = new System.Drawing.Point(859, 247);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 12;
@@ -130,6 +130,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "musteriSil";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "musteriSil";
             this.Load += new System.EventHandler(this.musteriSil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

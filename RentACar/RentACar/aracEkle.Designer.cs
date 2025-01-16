@@ -36,51 +36,57 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(250, 120);
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Location = new System.Drawing.Point(250, 115);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 21);
+            this.textBox1.Size = new System.Drawing.Size(144, 26);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(250, 185);
+            this.textBox2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox2.Location = new System.Drawing.Point(250, 176);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(144, 21);
+            this.textBox2.Size = new System.Drawing.Size(144, 26);
             this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(250, 252);
+            this.textBox3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox3.Location = new System.Drawing.Point(250, 247);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(144, 21);
+            this.textBox3.Size = new System.Drawing.Size(144, 26);
             this.textBox3.TabIndex = 3;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(250, 315);
+            this.textBox4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox4.Location = new System.Drawing.Point(250, 308);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(144, 21);
+            this.textBox4.Size = new System.Drawing.Size(144, 26);
             this.textBox4.TabIndex = 4;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(250, 381);
+            this.textBox5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox5.Location = new System.Drawing.Point(250, 376);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(144, 21);
+            this.textBox5.Size = new System.Drawing.Size(144, 26);
             this.textBox5.TabIndex = 5;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(636, 120);
+            this.textBox6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox6.Location = new System.Drawing.Point(635, 115);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(144, 21);
+            this.textBox6.Size = new System.Drawing.Size(144, 26);
             this.textBox6.TabIndex = 6;
             // 
             // button1
@@ -109,16 +115,6 @@
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::RentACar.Properties.Resources.FURKAN_1_;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1022, 647);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Honeydew;
@@ -131,6 +127,16 @@
             this.button2.Text = "Ana Sayfa";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::RentACar.Properties.Resources.FURKAN_1_;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1022, 649);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // aracEkle
             // 
@@ -149,6 +155,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "aracEkle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "XtraForm2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

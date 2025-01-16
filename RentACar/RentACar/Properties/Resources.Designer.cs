@@ -483,6 +483,16 @@ namespace RentACar.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap kullanıcı_EKLE {
+            get {
+                object obj = ResourceManager.GetObject("kullanıcı EKLE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap LOGO {
             get {
                 object obj = ResourceManager.GetObject("LOGO", resourceCulture);

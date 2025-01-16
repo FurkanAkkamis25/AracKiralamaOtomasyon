@@ -48,7 +48,19 @@ namespace RentACar
             int fiyat = Convert.ToInt32(gridView1.GetFocusedRowCellValue("Fiyat"));
             int zaman = Convert.ToInt32(gridView1.GetFocusedRowCellValue("KiralamaSuresi"));
 
-            MessageBox.Show(musteriAd+" "+musteriSoyad+"'a Ait "+tarih+" Tarihli Fatura Tutarı "+fiyat*zaman+" TL dir");
+            MessageBox.Show(musteriAd+" "+musteriSoyad+"'a Ait "+tarih+" Tarihli Fatura Tutarı "+fiyat*zaman+" TL'dir");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            anaSayfa ana = new anaSayfa();
+            ana.Show();
+            this.Hide();
         }
     }
 }

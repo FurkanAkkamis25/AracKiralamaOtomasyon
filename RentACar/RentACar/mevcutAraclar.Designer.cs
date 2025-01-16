@@ -103,7 +103,7 @@
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(95, 34);
             this.btnSil.TabIndex = 18;
-            this.btnSil.Text = "SİL";
+            this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = false;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
@@ -116,7 +116,7 @@
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(100, 34);
             this.btnGuncelle.TabIndex = 19;
-            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.Text = "Düzenle";
             this.btnGuncelle.UseVisualStyleBackColor = false;
             this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
@@ -161,6 +161,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "mevcutAraclar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mevcutAraclar";
             this.Load += new System.EventHandler(this.mevcutAraclar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

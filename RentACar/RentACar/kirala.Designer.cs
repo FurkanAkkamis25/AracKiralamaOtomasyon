@@ -68,16 +68,18 @@
             // 
             // textBoxFiyat
             // 
+            this.textBoxFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBoxFiyat.Location = new System.Drawing.Point(753, 133);
             this.textBoxFiyat.Name = "textBoxFiyat";
-            this.textBoxFiyat.Size = new System.Drawing.Size(133, 20);
+            this.textBoxFiyat.Size = new System.Drawing.Size(133, 24);
             this.textBoxFiyat.TabIndex = 2;
             // 
             // textBoxGunSayisi
             // 
+            this.textBoxGunSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBoxGunSayisi.Location = new System.Drawing.Point(753, 189);
             this.textBoxGunSayisi.Name = "textBoxGunSayisi";
-            this.textBoxGunSayisi.Size = new System.Drawing.Size(133, 20);
+            this.textBoxGunSayisi.Size = new System.Drawing.Size(133, 24);
             this.textBoxGunSayisi.TabIndex = 3;
             // 
             // button13
@@ -109,11 +111,12 @@
             // labelAracBilgisi
             // 
             this.labelAracBilgisi.AutoSize = true;
-            this.labelAracBilgisi.Location = new System.Drawing.Point(686, 259);
+            this.labelAracBilgisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelAracBilgisi.Location = new System.Drawing.Point(39, 489);
             this.labelAracBilgisi.Name = "labelAracBilgisi";
-            this.labelAracBilgisi.Size = new System.Drawing.Size(35, 13);
+            this.labelAracBilgisi.Size = new System.Drawing.Size(64, 20);
             this.labelAracBilgisi.TabIndex = 18;
-            this.labelAracBilgisi.Text = "label1";
+            this.labelAracBilgisi.Text = "Göster";
             // 
             // btnKaydet
             // 
@@ -143,6 +146,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "kirala";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "kirala";
             this.Load += new System.EventHandler(this.kirala_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

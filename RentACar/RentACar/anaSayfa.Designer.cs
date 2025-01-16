@@ -31,7 +31,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.btnFatura = new System.Windows.Forms.Button();
             this.btnİadeVeUcret = new System.Windows.Forms.Button();
-            this.btnRezervasyon = new System.Windows.Forms.Button();
+            this.btnAracDuzenle = new System.Windows.Forms.Button();
             this.btnKiralamaGecmisi = new System.Windows.Forms.Button();
             this.btnMusteriDuzenle = new System.Windows.Forms.Button();
             this.btnMusteriSil = new System.Windows.Forms.Button();
@@ -80,21 +80,22 @@
             this.btnİadeVeUcret.UseVisualStyleBackColor = false;
             this.btnİadeVeUcret.Click += new System.EventHandler(this.btnİadeVeUcret_Click);
             // 
-            // btnRezervasyon
+            // btnAracDuzenle
             // 
-            this.btnRezervasyon.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRezervasyon.BackgroundImage = global::RentACar.Properties.Resources.Adsız_tasarım_17_;
-            this.btnRezervasyon.Location = new System.Drawing.Point(314, 353);
-            this.btnRezervasyon.Name = "btnRezervasyon";
-            this.btnRezervasyon.Size = new System.Drawing.Size(188, 102);
-            this.btnRezervasyon.TabIndex = 10;
-            this.btnRezervasyon.UseVisualStyleBackColor = false;
+            this.btnAracDuzenle.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAracDuzenle.BackgroundImage = global::RentACar.Properties.Resources.kullanıcı_EKLE;
+            this.btnAracDuzenle.Location = new System.Drawing.Point(314, 233);
+            this.btnAracDuzenle.Name = "btnAracDuzenle";
+            this.btnAracDuzenle.Size = new System.Drawing.Size(188, 102);
+            this.btnAracDuzenle.TabIndex = 10;
+            this.btnAracDuzenle.UseVisualStyleBackColor = false;
+            this.btnAracDuzenle.Click += new System.EventHandler(this.btnAracDuzenle_Click);
             // 
             // btnKiralamaGecmisi
             // 
             this.btnKiralamaGecmisi.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnKiralamaGecmisi.BackgroundImage = global::RentACar.Properties.Resources.Adsız_tasarım_16_;
-            this.btnKiralamaGecmisi.Location = new System.Drawing.Point(111, 353);
+            this.btnKiralamaGecmisi.Location = new System.Drawing.Point(314, 353);
             this.btnKiralamaGecmisi.Name = "btnKiralamaGecmisi";
             this.btnKiralamaGecmisi.Size = new System.Drawing.Size(188, 102);
             this.btnKiralamaGecmisi.TabIndex = 9;
@@ -105,7 +106,7 @@
             // 
             this.btnMusteriDuzenle.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnMusteriDuzenle.BackgroundImage = global::RentACar.Properties.Resources.Adsız_tasarım_15_;
-            this.btnMusteriDuzenle.Location = new System.Drawing.Point(720, 233);
+            this.btnMusteriDuzenle.Location = new System.Drawing.Point(111, 353);
             this.btnMusteriDuzenle.Name = "btnMusteriDuzenle";
             this.btnMusteriDuzenle.Size = new System.Drawing.Size(188, 102);
             this.btnMusteriDuzenle.TabIndex = 8;
@@ -116,7 +117,7 @@
             // 
             this.btnMusteriSil.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnMusteriSil.BackgroundImage = global::RentACar.Properties.Resources.Adsız_tasarım_14_;
-            this.btnMusteriSil.Location = new System.Drawing.Point(517, 233);
+            this.btnMusteriSil.Location = new System.Drawing.Point(720, 233);
             this.btnMusteriSil.Name = "btnMusteriSil";
             this.btnMusteriSil.Size = new System.Drawing.Size(188, 102);
             this.btnMusteriSil.TabIndex = 7;
@@ -127,7 +128,7 @@
             // 
             this.btnMusteriEkle.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnMusteriEkle.BackgroundImage = global::RentACar.Properties.Resources.Adsız_tasarım_13_;
-            this.btnMusteriEkle.Location = new System.Drawing.Point(314, 233);
+            this.btnMusteriEkle.Location = new System.Drawing.Point(517, 233);
             this.btnMusteriEkle.Name = "btnMusteriEkle";
             this.btnMusteriEkle.Size = new System.Drawing.Size(188, 102);
             this.btnMusteriEkle.TabIndex = 6;
@@ -206,7 +207,7 @@
             this.Controls.Add(this.button13);
             this.Controls.Add(this.btnFatura);
             this.Controls.Add(this.btnİadeVeUcret);
-            this.Controls.Add(this.btnRezervasyon);
+            this.Controls.Add(this.btnAracDuzenle);
             this.Controls.Add(this.btnKiralamaGecmisi);
             this.Controls.Add(this.btnMusteriDuzenle);
             this.Controls.Add(this.btnMusteriSil);
@@ -236,7 +237,7 @@
         private System.Windows.Forms.Button btnMusteriSil;
         private System.Windows.Forms.Button btnMusteriDuzenle;
         private System.Windows.Forms.Button btnKiralamaGecmisi;
-        private System.Windows.Forms.Button btnRezervasyon;
+        private System.Windows.Forms.Button btnAracDuzenle;
         private System.Windows.Forms.Button btnİadeVeUcret;
         private System.Windows.Forms.Button btnFatura;
         private System.Windows.Forms.Button button13;

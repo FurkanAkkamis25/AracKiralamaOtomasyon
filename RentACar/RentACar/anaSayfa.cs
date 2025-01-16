@@ -99,5 +99,12 @@ namespace RentACar
             k.Show();
             this.Hide();
         }
+
+        private void btnAracDuzenle_Click(object sender, EventArgs e)
+        {
+            mevcutAraclar mevcut = new mevcutAraclar();
+            mevcut.Show();
+            this.Hide();
+        }
     }
 }

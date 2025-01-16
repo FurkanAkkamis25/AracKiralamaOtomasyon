@@ -77,10 +77,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(26, 89);
+            this.gridControl1.Location = new System.Drawing.Point(26, 90);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(661, 351);
+            this.gridControl1.Size = new System.Drawing.Size(967, 351);
             this.gridControl1.TabIndex = 17;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -92,11 +92,12 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(802, 247);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(841, 468);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 23);
+            this.button1.Size = new System.Drawing.Size(99, 27);
             this.button1.TabIndex = 18;
-            this.button1.Text = "button1";
+            this.button1.Text = "Kira Bitti";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -112,6 +113,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "kiradakiAraclar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "kiradakiAraclar";
             this.Load += new System.EventHandler(this.kiradakiAraclar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
